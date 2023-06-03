@@ -24,7 +24,10 @@ module.exports = {
     },
     {
       extends: ['eslint:recommended', 'prettier', 'esnext'],
-      files: '*.mjs',
+      parserOptions: {
+        sourceType: 'module',
+      },
+      files: ['./*.mjs', './*.js'],
       rules: ruleOverrides,
     },
   ],

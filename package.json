@@ -11,6 +11,7 @@
   "dependencies": {
     "@supabase/auth-helpers-nextjs": "0.7.1",
     "@supabase/supabase-js": "2.24.0",
+    "@t3-oss/env-nextjs": "^0.4.0",
     "next": "13.4.4",
     "react": "18.2.0",
     "react-dom": "18.2.0",
@@ -18,7 +19,8 @@
     "react-markdown": "8.0.7",
     "react-scrollbars-custom": "4.1.1",
     "sass": "1.62.1",
-    "server-only": "0.0.1"
+    "server-only": "0.0.1",
+    "zod": "^3.21.4"
   },
   "devDependencies": {
     "@next/eslint-plugin-next": "^13.4.4",
