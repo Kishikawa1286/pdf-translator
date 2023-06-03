@@ -4,24 +4,7 @@ export interface Database {
   public: {
     Tables: {
       posts: {
-        Row: {
-          id: string;
-          created_at: string;
-          content: string;
-          user_id: string;
-        };
-        Insert: {
-          id?: string;
-          created_at?: string;
-          content: string;
-          user_id?: string;
-        };
-        Update: {
-          id?: string;
-          created_at?: string;
-          content?: string;
-          user_id?: string;
-        };
+        [_ in never]: never;
       };
     };
     Views: {
@@ -31,6 +14,9 @@ export interface Database {
       [_ in never]: never;
     };
     Enums: {
+      [_ in never]: never;
+    };
+    CompositeTypes: {
       [_ in never]: never;
     };
   };
