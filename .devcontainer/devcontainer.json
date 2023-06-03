@@ -58,7 +58,8 @@
         },
         "typescript.enablePromptUseWorkspaceTsdk": true,
         "[typescriptreact]": {
-          "editor.defaultFormatter": "vscode.typescript-language-features"
+          "editor.defaultFormatter": "vscode.typescript-language-features",
+          "editor.tabSize": 2
         },
         "[typescript]": {
           "editor.tabSize": 2
