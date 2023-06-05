@@ -3,9 +3,7 @@ export type Json = string | number | boolean | null | { [key: string]: Json } | 
 export interface Database {
   public: {
     Tables: {
-      posts: {
-        [_ in never]: never;
-      };
+      [_ in never]: never;
     };
     Views: {
       [_ in never]: never;
